@@ -1,0 +1,89 @@
+  /*STAFF CARD*/
+.admincard {
+	margin: 0;
+	vertical-align: left;
+	top: calc(5% + 200px);
+	position: absolute;
+	width: 10%;
+	height: 10%;
+}
+
+  /*STAFF INFO*/
+.admininfo {
+	margin: 0;
+	vertical-align: left;
+	top: calc(5% + 200px);
+	left: 200px;
+	position: absolute;
+	width: 80%;
+}
+
+/* Add padding inside the card container */
+.admincontainer {
+	padding: 2px 16px;
+    background-color:  #0074D9;
+    color: white;
+}
+
+
+
+/* buttons container */
+.buttonsadmincontainer{
+	margin: 0;
+	vertical-align: center;
+	top: 555px;
+	position: absolute;
+	width: 100%;
+}
+
+/* buttons */
+
+.btn-group .button {
+  background-color: #0074D9;
+  border: 1px solid blue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #001f3f;
+}
+
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+  } 
+  td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  th {
+    background-color: #0074D9;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
